@@ -167,7 +167,7 @@ html,body {
 	font-size:18px;
 }
 #data-about {
-	width:900px;
+	width:950px;
 	margin:auto;
 	margin-top:60px;
 	margin-bottom:200px;
@@ -176,17 +176,17 @@ html,body {
 #data-about img {
 	width:170px;
 	height:160px;
-	margin-left:5%;
+	padding-left:55px;
 }
 #trust-us {
 	margin:auto;
 	margin-bottom:10%;
-	width:1200px;
+	width:1300px;
 
 }
 #trust-us img{
-	width:1200px;
-	height:600px;
+	width:1300px;
+	height:700px;
 }
 
 
