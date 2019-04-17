@@ -206,6 +206,28 @@ html,body {
 	margin:auto;
 }
 
+/*     INDEX INDEX INDEX */
+
+#main-wrapper {
+	width:100%;
+	height:1000px;
+	text-align:center;
+}
+#main-wrapper img{
+	width:100%;
+	height:100%;
+	display:block;
+}
+#under-wrapper {
+	width:100%;
+	height:30%;
+	text-align:center;
+}
+#under-wrapper img{
+	width:20%;
+	margin:70px;
+}
+
 
 
 /* Media queryes */
