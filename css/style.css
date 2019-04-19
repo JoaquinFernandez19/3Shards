@@ -210,7 +210,7 @@ html,body {
 
 #main-wrapper {
 	width:100%;
-	height:1000px;
+	height:700px;
 	text-align:center;
 }
 #main-wrapper img{
@@ -222,16 +222,38 @@ html,body {
 	width:100%;
 	height:30%;
 	text-align:center;
+	margin-top:5%;
+	margin-bottom:5%;
 }
 #under-wrapper img{
-	width:20%;
-	margin:70px;
+	width:400px;
 }
+#center-image{
+	margin-left:7%;
+	margin-right:7%;
+}
+
 
 
 
 /* Media queryes */
-@media screen and (max-width:1218px){
+@media screen and (max-width:1416px) {
+ 	#under-wrapper img#center-image{
+		margin-left:3%;
+		margin-right:3%;
+	}
+}
+@media screen and (max-width:1298px){
+	#right-image {
+		margin-top:60px;
+		margin-right:4%;
+	}
+	#under-wrapper img#center-image{
+		margin-left:10%;
+		margin-right:4%;
+	}
+}
+@media screen and (max-width:1217px){
 	#trust-us {
 		width:100%;
 	}
@@ -244,6 +266,15 @@ html,body {
 	}
 	#pre-footer-content p{
 		margin-left:10%;
+	}
+	#main-wrapper img{
+		height:90%;
+	}
+	#main-wrapper {
+		height:600px;
+	}
+	#under-wrapper {
+		margin-top:-30px;
 	}
 }
 @media screen and (max-width:1081px) {
@@ -258,9 +289,8 @@ html,body {
 		margin-left:0px;
 		margin-right:0px;
 	}
-
 }
-@media screen and (max-width:938px) {
+@media screen and (max-width:978px) {
 	#data-about {
 		width:100%;
 		height:100px;
@@ -271,10 +301,18 @@ html,body {
 		margin-top:40px;
 	}
 	#trust-us img{
-			height:400px;
+		height:400px;
+	}
+	#right-image {
+		margin-top:40px;
 	}
 }
-
+@media screen and (max-width:946px){
+	#under-wrapper img#center-image{
+		margin-left:4%;
+		margin-right:4%;
+	}
+}
 @media screen and (max-width:885px)	{
 	#data-about {
 		height:200px;
@@ -288,6 +326,19 @@ html,body {
 		width:90%;
 		margin-left:10%;
 		margin-right:0.1%;
+	}
+}
+@media screen and (max-width:884px)	{
+	#right-image {
+		margin-right:0;
+	}
+	#center-image {
+		margin-top:40px;
+	}
+}
+@media screen and (max-width:654px) { 
+	#center-image {
+		margin-top:40px;
 	}
 }
 @media screen and (max-width:640px) { 
@@ -313,6 +364,10 @@ html,body {
 		#header-content ul {
 			display:flex;
 		}
+		#under-wrapper img#center-image{
+			margin-left:0%;
+			margin-right:0%;
+		}
 }
 @media screen and (max-width:433px) {
 	.menu-item{
@@ -337,9 +392,23 @@ html,body {
 	#pre-footer-content ul {
 		margin-left:-10px;
 	}
+	#main-wrapper {
+		height:400px;
+	}
+	#main-wrapper img {
+		position:relative;
+		top:-10px;
+		height:70%;
+	}
+	#under-wrapper{
+		margin-top:-60px;
+		margin-bottom:100px;
+	}
+	#under-wrapper img{
+		width:360px;
+	}
 }
-@media screen and (max-width:400px){  
-}
+
 @media screen and (max-width:346px){
 		#data-about img {
 			width:110px;
