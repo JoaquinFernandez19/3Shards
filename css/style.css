@@ -59,7 +59,6 @@ body{
 	margin-left:15px;
 	position:absolute;
 	background-color:red;
-
 }
 #header-content a:hover {
 	color:#dfd2d0;
@@ -76,7 +75,6 @@ article {
 	width:100%;
 	margin:0px;
 }
-/*  #ebebeb */
 #section-title {
 	background-color:#f5f5f5;
 	height:50px;
@@ -90,7 +88,6 @@ article {
 	position:relative;
 	top:-10px;
 }
-
 #article-content {
 	font-size:20px;
 	width:100%;
@@ -123,10 +120,7 @@ article {
 	margin-left:10%;
 	padding-left:40px;
 }
-
-
-#pre-footer-content li a.social {
-	
+#pre-footer-content li a.social {	
 }
 #pre-footer-content li {
 	color:#aaacaf;
@@ -175,7 +169,6 @@ html,body {
 	font-size:35px;
 	margin-bottom:40px;
 }
-
 #body-about {
 	width:750px;
 	margin:auto;
@@ -198,7 +191,6 @@ html,body {
 	margin:auto;
 	margin-bottom:10%;
 	width:1200px;
-
 }
 #trust-us img{
 	width:100%;
@@ -206,7 +198,7 @@ html,body {
 	margin:auto;
 }
 
-/*     INDEX INDEX INDEX */
+         /*     INDEX INDEX INDEX */
 
 #main-wrapper {
 	width:100%;
@@ -233,7 +225,19 @@ html,body {
 	margin-right:7%;
 }
 #main-wrapper img#banner2 {
-	display:none;
+	display:none; 
+	/*hola*/
+}
+
+		/* NUESTROS TRABAJOS */
+
+#work-main-wrapper {
+	text-align:center;
+}
+#work-main-wrapper img {
+	width:300px;
+	height:200px;
+	margin:30px;
 }
 
 
@@ -420,7 +424,6 @@ html,body {
 		width:80%;
 	}
 }
-
 @media screen and (max-width:346px){
 		#data-about img {
 			width:110px;
