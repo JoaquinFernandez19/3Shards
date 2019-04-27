@@ -154,7 +154,7 @@ html,body {
                  /* SECTIONS */
 
            /* ABOUT ABOUT ABOUT */
-
+           
 
 
 .p-distance {
@@ -237,7 +237,8 @@ html,body {
 #work-main-wrapper img {
 	width:300px;
 	height:200px;
-	margin:30px;
+	margin-left:20px;
+	margin-top:10px;
 }
 
 
@@ -248,6 +249,12 @@ html,body {
  	#under-wrapper img#center-image{
 		margin-left:3%;
 		margin-right:3%;
+	}
+}
+@media screen and (max-width:1305px){
+	div#work-main-wrapper div{
+		width:900px;
+		margin:auto;
 	}
 }
 @media screen and (max-width:1298px){
@@ -334,6 +341,9 @@ html,body {
 		margin-left:10%;
 		margin-right:0.1%;
 	}
+	div#work-main-wrapper div{
+		margin-left:-70px;
+	}
 }
 @media screen and (max-width:884px)	{
 	#right-image {
@@ -341,6 +351,11 @@ html,body {
 	}
 	#center-image {
 		margin-top:40px;
+	}
+}
+@media screen and (max-width:748px){
+	div#work-main-wrapper div{
+		margin-left:-100px;
 	}
 }
 @media screen and (max-width:654px) { 
