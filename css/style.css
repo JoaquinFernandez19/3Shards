@@ -259,7 +259,51 @@ html,body {
 	flex-wrap:wrap;
 }
 
+/* nuestros trabajos páginas */
+#work-page-title h1{
+	text-align:center;
+}
+#work-page p{
+	text-align:center;
+}
+.carousel-container img {
+	width:1200px;
+	height:900px
+}	
 
+.carousel-container {
+	width:1200px;
+	margin:auto;
+	overflow: hidden;
+	border:5px solid black;
+	position:relative;
+}
+.carousel-slide{
+	display:flex;
+	height:700px;
+	width:100%;
+}
+
+#prevBtn{
+	position:absolute;
+	top:50%;
+	z-index:10;
+	left:5%;
+	font-size:30px;
+	color:white;
+	opacity:0.5;
+	cursor:pointer;
+}
+#nextBtn{
+	position:absolute;
+	top:50%;
+	z-index:10;
+	right:5%;
+	font-size:30px;
+	color:white;
+	opacity:1;
+	cursor:pointer;
+}
 
 
 
