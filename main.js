@@ -11,6 +11,9 @@ const size = carouselImages[0].clientWidth;
 
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';	
 
+setInterval(function (){
+	nextBtn.click();
+}, 4000);
 //Button Listeners
 
 nextBtn.addEventListener('click',() =>{
