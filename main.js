@@ -11,7 +11,14 @@ const size = carouselImages[0].clientWidth;
 
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';	
 
-setInterval(function (){nextBtn.click();}, 4000);
+//timer
+function myFn() {nextBtn.click();}
+var myTimer = setInterval(myFn, 4000);
+
+
+
+
+
 //Button Listeners
 
 nextBtn.addEventListener('click',() =>{
@@ -19,6 +26,8 @@ nextBtn.addEventListener('click',() =>{
 	carouselSlide.style.transition = "transform 0.4s ease-in-out";
 	counter++;
 	carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+	clearInterval(myTimer);
+	myTimer = setInterval(myFn, 4000);
 });
 
 prevBtn.addEventListener('click',() =>{
@@ -26,6 +35,8 @@ prevBtn.addEventListener('click',() =>{
 	carouselSlide.style.transition = "transform 0.4s ease-in-out";
 	counter--;
 	carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+	clearInterval(myTimer);
+	myTimer = setInterval(myFn, 4000);
 });
 
 carouselSlide.addEventListener('transitionend',() => {
