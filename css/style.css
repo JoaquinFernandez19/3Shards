@@ -296,6 +296,14 @@ html,body {
 		width:100%;
 	}
 }
+@media screen and (max-width:1400px){
+	#main-wrapper img{
+		height:90%;
+	}
+	#main-wrapper {
+		height:600px;
+	}
+}
 @media screen and (max-width:1298px){
 	#right-image {
 		margin-top:60px;
