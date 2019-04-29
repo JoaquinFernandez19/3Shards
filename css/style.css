@@ -260,11 +260,20 @@ html,body {
 }
 
 /* nuestros trabajos páginas */
-#work-page-title h1{
+#work-page-title {
+	margin-top:1%;
+	font-size:30px;
+	margin-bottom:2%;
+	width:700px;
+	margin:auto;
 	text-align:center;
+	color:#2d88b9;
 }
-#work-page p{
+#work-page {
 	text-align:center;
+	margin:auto;
+	width:900px;
+	margin-bottom:5%;
 }
 .carousel-container img {
 	width:1200px;
@@ -275,8 +284,9 @@ html,body {
 	width:1200px;
 	margin:auto;
 	overflow: hidden;
-	border:5px solid black;
+	border:3px solid #2d88b9;
 	position:relative;
+	margin-bottom:5%;
 }
 .carousel-slide{
 	display:flex;
