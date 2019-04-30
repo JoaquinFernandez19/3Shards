@@ -13,7 +13,7 @@ carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
 //timer
 function myFn() {nextBtn.click();}
-var myTimer = setInterval(myFn, 4000);
+var myTimer = setInterval(myFn, 8000);
 
 
 
@@ -23,20 +23,20 @@ var myTimer = setInterval(myFn, 4000);
 
 nextBtn.addEventListener('click',() =>{
 	if(counter >= carouselImages.length -1)return;	
-	carouselSlide.style.transition = "transform 0.4s ease-in-out";
+	carouselSlide.style.transition = "transform 0.9s ease-in-out";
 	counter++;
 	carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 	clearInterval(myTimer);
-	myTimer = setInterval(myFn, 4000);
+	myTimer = setInterval(myFn, 8000);
 });
 
 prevBtn.addEventListener('click',() =>{
 	if(counter <= 0) return;
-	carouselSlide.style.transition = "transform 0.4s ease-in-out";
+	carouselSlide.style.transition = "transform 0.9s ease-in-out";
 	counter--;
 	carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 	clearInterval(myTimer);
-	myTimer = setInterval(myFn, 4000);
+	myTimer = setInterval(myFn, 8000);
 });
 
 carouselSlide.addEventListener('transitionend',() => {
