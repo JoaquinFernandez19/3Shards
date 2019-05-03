@@ -1,9 +1,13 @@
-<!doctype html>
+  <!doctype html>
 <html class="no-js" lang="">
 
 <head>
   <meta charset="utf-8">
   <title>3Shards</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,9 +25,9 @@
 <body>
   <header >
     <div id="header-content">
-       <a href="index.html"><img src="img/tiny-logo.png" id="logo2"></a>
+      <a href="index.html"><img src="img/tiny-logo.png" id="logo2"></a>
       <a href="index.html"><img src="img/logo.png" id="logo1"></a>
-      <ul>
+      <ul style="margin-top:15px">
         <a href="#"class="active menu-item"><li id="byebye">Inicio</li></a>
         <a href="about.html"class="menu-item"><li>Sobre Nosotros</li></a>
         <a href="work.html"class="menu-item"><li>Nuestros trabajos</li></a>
@@ -32,13 +36,40 @@
     </div>
   </header>
   <article>
-    <div id="article-content">
-      <div id="main-wrapper">
-        <a href="https://battlefy.com/movistar-uruguay" target="_blank"><img id="banner1" src="img/banner.png"></a>
-        <a href="https://battlefy.com/movistar-uruguay" target="_blank"><img id="banner2" src="img/banner2.png"></a>
-      </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0"class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One -->
+        <div class="carousel-item active" style="background-image: url('img/banner.png');">
+        </div>
+        <!--Slide Two-->
+        <div class="carousel-item" style="background-image: url('img/banner.png');">
+        </div>
+         <!--Slide Two-->
+        <div class="carousel-item" style="background-image: url('img/banner.png');">
+        </div>
+      </div> <!-- End Carousel Inner-->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" style="margin-right:100px"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" style="margin-left:100px"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </article>
+  <!--
+  <a href="https://battlefy.com/movistar-uruguay" target="_blank"><img class="banner1" id="lastClone" src="img/banner.png"></a>
+            <a href="https://battlefy.com/movistar-uruguay" target="_blank"><img class="banner1" src="img/banner.png"></a>
+            <a href="https://battlefy.com/movistar-uruguay" target="_blank"><img class="banner1" src="img/banner.png"></a>
+            <a href="https://battlefy.com/movistar-uruguay" target="_blank"><img class="banner1" src="img/banner.png"></a>
+            <a href="https://battlefy.com/movistar-uruguay" target="_blank"><img class="banner1" id="firstClone" src="img/banner.png"></a>
+  -->
   <footer>
     <div id="pre-footer-content">
       <p>Contacto</p>
