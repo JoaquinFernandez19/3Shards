@@ -519,6 +519,9 @@ html,body {
 		position:relative;
 		top:-12px;
 	}
+	.carousel-item{
+		height:87vh;
+	}
 	
 }
 @media screen and (max-width:346px){
