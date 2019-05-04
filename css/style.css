@@ -200,11 +200,6 @@ html,body {
 }
 
          /*     INDEX INDEX INDEX */
-img.banner2 {
-	display:none; 
-	/*hola*/
-}
-
 .carousel-item{
 	width:100%;
 	height:90vh;
@@ -214,6 +209,15 @@ img.banner2 {
   	-moz-background-size: 100% 100%;
   	-o-background-size: 100% 100%;
   	background-size: 100% 100%;
+}
+.carousel-item#imgOneIndex{
+	background-image: url('../img/banner.png');
+}
+.carousel-item#imgTwoIndex{
+	background-image: url('../img/banner.png');
+}
+.carousel-item#imgThreeIndex{
+	background-image: url('../img/banner.png');
 }
 
 
@@ -437,12 +441,16 @@ img.banner2 {
 	#center-image {
 		margin-top:40px;
 	}
-	#main-wrapper img.banner1 {
-		display:none;
+	.carousel-item#imgOneIndex{
+		background-image: url('../img/banner2.png');
+	}	
+	.carousel-item#imgTwoIndex{
+		background-image: url('../img/banner2.png');
 	}
-	#main-wrapper img.banner2 {
-		display:block;
+	.carousel-item#imgThreeIndex{
+		background-image: url('../img/banner2.png');
 	}
+
 }
 @media screen and (max-width:640px) { 
 	#header-content img#logo1{
