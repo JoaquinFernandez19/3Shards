@@ -515,6 +515,11 @@ html,body {
 		position:relative;
 		left:6%;
 	}
+	div.carousel{
+		position:relative;
+		top:-12px;
+	}
+	
 }
 @media screen and (max-width:346px){
 		#data-about img {
