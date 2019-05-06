@@ -199,25 +199,20 @@ html,body {
 }
 
          /*     INDEX INDEX INDEX */
-.carousel-item{
+div.carousel {
+	margin:auto;
+	text-align:center;
+}
+div.carousel-item img{
 	width:100%;
 	height:90vh;
 	min-height:300px;
-	background:no-repeat center center scroll;
-	-webkit-background-size: 100% 100%;
-  	-moz-background-size: 100% 100%;
-  	-o-background-size: 100% 100%;
-  	background-size: 100% 100%;
+	margin:auto;
 }
-.carousel-item#imgOneIndex{
-	background-image: url('../img/banner.png');
+#hiddenOne {
+	display:none;
 }
-.carousel-item#imgTwoIndex{
-	background-image: url('../img/banner.png');
-}
-.carousel-item#imgThreeIndex{
-	background-image: url('../img/banner.png');
-}
+
 
 
 
@@ -251,6 +246,7 @@ html,body {
 	flex-wrap:wrap;
 }
 
+
 /* nuestros trabajos páginas */
 #work-page-title {
 	margin-top:1%;
@@ -267,44 +263,29 @@ html,body {
 	width:900px;
 	margin-bottom:5%;
 }
-.carousel-container img {
-	width:1200px;
-	height:900px
-}	
-
-.carousel-container {
-	width:1200px;
+article.events div.carousel {
 	margin:auto;
-	overflow: hidden;
-	position:relative;
-	margin-bottom:5%;
+	text-align:center;
 }
-.carousel-slide{
-	display:flex;
-	height:700px;
-	width:100%;
+article.events div.carousel-item img{
+	width:70%;
+	height:90vh;
+	min-height:300px;
+	margin:auto;
+}
+article.events span.carousel-control-next-icon{
+	position:absolute;
+	left:-10vh;
+}
+article.events span.carousel-control-prev-icon{
+	position:absolute;
+	right:-10vh;
 }
 
-#prevBtn{
-	position:absolute;
-	top:50%;
-	z-index:10;
-	left:5%;
-	font-size:30px;
-	color:white;
-	opacity:1;
-	cursor:pointer;
-}
-#nextBtn{
-	position:absolute;
-	top:50%;
-	z-index:10;
-	right:5%;
-	font-size:30px;
-	color:white;
-	opacity:1;
-	cursor:pointer;
-}
+
+
+
+
 
 
 
@@ -440,15 +421,13 @@ html,body {
 	#center-image {
 		margin-top:40px;
 	}
-	.carousel-item#imgOneIndex{
-		background-image: url('../img/banner2.png');
-	}	
-	.carousel-item#imgTwoIndex{
-		background-image: url('../img/banner2.png');
+	#hiddenOne {
+		display:block;
 	}
-	.carousel-item#imgThreeIndex{
-		background-image: url('../img/banner2.png');
+	#showingOne{
+		display:none;
 	}
+	
 
 }
 @media screen and (max-width:640px) { 
