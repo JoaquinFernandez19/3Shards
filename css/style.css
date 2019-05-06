@@ -276,13 +276,15 @@ article.events div.carousel-item img{
 .carousel-control-next-icon{
 	position:absolute;
 	left:-10vh;
-	text-shadow: 1px 1px 1px #ccc;
+	filter: drop-shadow(2px 3px  1px black);
 }
 .carousel-control-prev-icon{
 	position:absolute;
 	right:-10vh;
-	text-shadow: 1px 1px 1px #ccc;
+	filter: drop-shadow(2px 3px  1px black);
 }
+
+
 
 
 
