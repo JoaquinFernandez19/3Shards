@@ -273,13 +273,15 @@ article.events div.carousel-item img{
 	min-height:300px;
 	margin:auto;
 }
-article.events span.carousel-control-next-icon{
+.carousel-control-next-icon{
 	position:absolute;
 	left:-10vh;
+	text-shadow: 1px 1px 1px #ccc;
 }
-article.events span.carousel-control-prev-icon{
+.carousel-control-prev-icon{
 	position:absolute;
 	right:-10vh;
+	text-shadow: 1px 1px 1px #ccc;
 }
 
 
