@@ -199,11 +199,11 @@ html,body {
 }
 
          /*     INDEX INDEX INDEX */
-div.carousel {
+article#index div.carousel {
 	margin:auto;
 	text-align:center;
 }
-div.carousel-item img{
+article#index div.carousel-item img{
 	width:100%;
 	height:90vh;
 	min-height:300px;
@@ -248,20 +248,24 @@ div.carousel-item img{
 
 
 /* nuestros trabajos páginas */
+
 #work-page-title {
 	margin-top:1%;
 	font-size:30px;
 	margin-bottom:2%;
-	width:700px;
 	margin:auto;
 	text-align:center;
 	color:#2d88b9;
 }
-#work-page {
-	text-align:center;
+div#work-page {
+	text-align:left;
+	width:60%;
+	min-height:200px;
 	margin:auto;
-	width:900px;
-	margin-bottom:5%;
+}
+div#work-page p{
+	font-size:100%;
+	width:100%;
 }
 article.events div.carousel {
 	margin:auto;
@@ -368,6 +372,18 @@ article.events div.carousel-item img{
 		margin-left:0px;
 		margin-right:0px;
 	}
+	article.events div.carousel-item img{
+		width:100%;
+	}
+	.carousel-control-next-icon{
+		left:10vh;
+	}
+	.carousel-control-prev-icon{
+		right:10vh;
+	}
+	div#work-page {
+		width:80%;
+	}
 }
 @media screen and (max-width:978px) {
 	#data-about {
@@ -409,11 +425,23 @@ article.events div.carousel-item img{
 	#five-works {
 		margin-left:5%;
 	}
+	article.events div.carousel-item img{
+		height:60vh;
+		min-height:300px;
+
+	}	
 }	
 @media screen and (max-width:748px){
 	div#work-main-wrapper div{
 		margin-left:2%;
 	}
+	.carousel-control-next-icon{
+		left:0vh;
+	}
+	.carousel-control-prev-icon{
+		right:0vh;
+	}
+
 }
 @media screen and (max-width:696px){
 	#five-works {
@@ -431,8 +459,6 @@ article.events div.carousel-item img{
 	#showingOne{
 		display:none;
 	}
-	
-
 }
 @media screen and (max-width:640px) { 
 	#header-content img#logo1{
@@ -443,10 +469,16 @@ article.events div.carousel-item img{
 		width:50px;
 		height:50px;
 	}
+	div#work-page {
+		width:95%;
+	}
 }
 @media screen and (max-width:522px){
 	#five-works{
 		left:15%;
+	}
+	article.events div.carousel-item img{
+		height:40vh;
 	}
 }
 @media screen and (max-width:446px){
@@ -497,11 +529,11 @@ article.events div.carousel-item img{
 		position:relative;
 		left:6%;
 	}
-	div.carousel{
+	article#index div.carousel{
 		position:relative;
 		top:-12px;
 	}
-	.carousel-item{
+	article#index .carousel-item{
 		height:87vh;
 	}
 	
