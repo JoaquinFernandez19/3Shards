@@ -179,8 +179,10 @@ div#text-and-img p {
 	position:relative;
 	top:-30px;
 }
+
 div#text-and-img img {
 	width:50%;
+	pointer-events: none;
 }
 span#about-span{
 	font-size:30px;
