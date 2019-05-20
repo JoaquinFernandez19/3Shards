@@ -84,8 +84,9 @@ article {
 	margin-top:10px;
 }
 .s-title {
-	margin-left:19%;
 	font-size:25px;
+	float:left;
+	margin-left:15%;
 }
 #article-content {
 	font-size:20px;
@@ -182,7 +183,6 @@ div#text-and-img p {
 
 div#text-and-img img {
 	width:50%;
-	pointer-events: none;
 }
 span#about-span{
 	font-size:30px;
