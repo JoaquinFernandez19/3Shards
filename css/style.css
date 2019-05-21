@@ -180,7 +180,6 @@ div#text-and-img p {
 	position:relative;
 	top:-30px;
 }
-
 div#text-and-img img {
 	width:50%;
 }
@@ -190,21 +189,18 @@ span#about-span{
 	position:absolute;
 	top:10px;
 }
-
 #banner-div1 img{
 	width:100%;
 	height:40vh;
-	min-height:100px;
+	min-height:200px;
 	margin:auto;
 }
 div#valor{
 	text-align:center;
 	margin-bottom:70px;
-
 }
 div#valor img{
 	width:60%;
-
 }
 
 
@@ -309,11 +305,9 @@ article.events div.carousel-item img{
 	color:white;
  	position: relative;
 }
-
 #header-content #small1:hover{
     text-decoration:line-through;
     text-decoration-color:white;
-
 }
 
 
@@ -430,7 +424,6 @@ article.events div.carousel-item img{
 	.carousel-control-prev-icon{
 		right:0vh;
 	}
-
 }
 @media screen and (max-width:696px){
 	#five-works {
@@ -516,7 +509,6 @@ article.events div.carousel-item img{
 	article#index .carousel-item{
 		height:87vh;
 	}
-	
 }
 @media screen and (max-width:375px){
 	#five-works{
