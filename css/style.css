@@ -43,9 +43,7 @@ body{	background-color:#ebebeb;
 	display:block;
 	margin-right:19%;
 }
-#header-content ul li{
-	display:inline-block;
-}
+
 #header-content img#logo1 {
 	margin-left:14.5%;
 	margin-top:10px;
@@ -424,7 +422,6 @@ article.events div.carousel-item img{
 	div#valor img{
 		width:100%;
 	}
-
 }
 @media screen and (max-width:885px)	{
 	#five-works{
@@ -503,6 +500,7 @@ article.events div.carousel-item img{
     }
     .hiddenAbout {
     	display:block;
+    	min-height:200px;
 	}
 }
 @media screen and (max-width:522px){
@@ -520,6 +518,14 @@ article.events div.carousel-item img{
 			flex-wrap: nowrap;
 			width:350px;
 		}
+	.menu-item{
+		font-size:11px;
+		width:50%;
+		position:relative;
+		top:-5px;
+		left:-40px;
+		padding-left:20px;
+	}
 	#banner-div1 img{
 		position:relative;
 		top:-21px;
@@ -530,7 +536,7 @@ article.events div.carousel-item img{
 		margin:4px;
 		color:white;
 		font-weight:550;
-		font-size:14px;
+		font-size:12px;
 		letter-spacing: 0.2px;
 		margin-top:10px;
 	}
@@ -574,6 +580,7 @@ article.events div.carousel-item img{
 		padding-top:90px;
 		margin:auto;
 	}
+
 }
 @media screen and (max-width:375px){
 	#five-works{
@@ -591,4 +598,9 @@ article.events div.carousel-item img{
     	line-height: 20px;
     	margin-left:10px;
     }
+    .menu-item{
+		font-size:12px;
+		margin-left:-10px;
+		left:-10px;
+	}
 }	
